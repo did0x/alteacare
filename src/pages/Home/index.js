@@ -39,16 +39,16 @@ const Home = () => {
     let temp = [...data];
     if (doctorNameSubmitted !== "") {
       temp = temp.filter(item => item.name.toLowerCase().includes(doctorNameSubmitted));
-      setItems(temp);
     }
-    if (hospitalSelected !== "") {
+    setItems(temp);
+    if (hospitalSelected !== "")  {
       temp = temp.filter(item => item.hospital[0].name === hospitalSelected);
-      setItems(temp);
     }
+    setItems(temp);
     if (specializationSelected !== "") {
       temp = temp.filter(item => item.overview === specializationSelected)
-      setItems(temp)
-    }
+    } 
+    setItems(temp)
       
 	},[doctorNameSubmitted, hospitalSelected, specializationSelected])
   
