@@ -20,7 +20,7 @@ export const get_data = () => {
                 dispatch(put_data("data", resp.data.data));
             })
             .catch((err) => {
-                // dispatch(catch_error(err_msg(err)));
+                console.log(err)
             })
             .then(() => {
                 dispatch(toggle_loader(false));
