@@ -1,0 +1,181 @@
+@keyframes slideInUp {
+	from {
+		transform: translate3d(0, 125%, 0);
+		visibility: visible;
+	}
+
+	to {
+		transform: translate3d(0, 0, 0);
+	}
+}
+
+.slideInUp {
+	animation-name: slideInUp;
+}
+
+@keyframes slideInDown {
+	from {
+		transform: translate3d(0, -100%, 0);
+		visibility: visible;
+	}
+
+	to {
+		transform: translate3d(0, 0, 0);
+	}
+}
+
+@keyframes slideInDownCenter {
+    from {
+		transform: translate3d(-50%, -100%, 0);
+		visibility: visible;
+	}
+
+	to {
+		transform: translate3d(-50%, -50%, 0);
+	}
+}
+
+.slideInDownCenter {
+	animation-name: slideInDownCenter;
+}
+
+
+.slideInDown {
+	animation-name: slideInDown;
+}
+
+@keyframes slideOutUp {
+	from {
+		transform: translate3d(0, 0, 0);
+	}
+
+	to {
+		visibility: hidden;
+		transform: translate3d(0, -100%, 0);
+	}
+}
+
+.slideOutUp {
+	animation-name: slideOutUp;
+}
+
+@keyframes slideOutDown {
+	from {
+		transform: translate3d(0, 0, 0);
+	}
+
+	to {
+		visibility: hidden;
+		transform: translate3d(0, 125%, 0);
+	}
+}
+
+.slideOutDown {
+	animation-name: slideOutDown;
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
+}
+
+.fadeIn {
+	animation-name: fadeIn;
+}
+
+@keyframes fadeOut {
+	from {
+		opacity: 1;
+	}
+
+	to {
+		opacity: 0;
+	}
+}
+
+.fadeOut {
+	animation-name: fadeOut;
+}
+
+@keyframes scaleIn {
+	from {
+		transform: scaleX(0);
+	}
+
+	to {
+		transform: scaleX(1);
+	}
+}
+
+.scaleIn {
+	animation-name: fadeIn;
+}
+
+@keyframes scaleOut {
+	from {
+		transform: scaleX(1);
+	}
+
+	to {
+		transform: scaleX(0);
+	}
+}
+
+.scaleOut {
+	animation-name: fadeIn;
+}
+
+@keyframes zoomIn {
+	from {
+		opacity: 0;
+		transform: scale3d(0.3, 0.3, 0.3);
+	}
+
+	50% {
+		opacity: 1;
+	}
+}
+
+.zoomIn {
+	animation-name: zoomIn;
+}
+
+@keyframes slideInLeft {
+	from {
+		transform: translate3d(-100%, 0, 0);
+		visibility: visible;
+	}
+
+	to {
+		transform: translate3d(0, 0, 0);
+	}
+}
+
+.slideInLeft {
+	animation-name: slideInLeft;
+}
+
+@keyframes slideInRight {
+	from {
+		transform: translate3d(100%, 0, 0);
+		visibility: visible;
+	}
+
+	to {
+		transform: translate3d(0, 0, 0);
+	}
+}
+
+.slideInRight {
+	animation-name: slideInRight;
+}
+
+.animated {
+	animation-duration: 500ms;
+	animation-fill-mode: both;
+}

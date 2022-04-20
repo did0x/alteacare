@@ -1,0 +1,76 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    color: #4E4E4E;
+    height: 100vh;
+    overflow-y: scroll;
+
+    &__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+        &__header {
+            height: 30vh;
+            h1 {
+                font-size: 6vmin;
+                font-weight: 400;
+                margin-top: 14vh;
+                margin-left: 8vw;
+                margin-right: 8vw;
+                margin-bottom: 2vh;
+            }
+
+            span {
+                font-size: 2.6vmin;
+                margin-left: 8vw;
+                margin-right: 8vw;
+                // margin: 2vh 16vw;
+            }
+        }
+
+        &__search {
+            display: flex;
+            height: 10vh;
+
+            input[type='text'],
+            textarea,
+            select {
+                display: block;
+                padding: 1.8vh 1.4vw;
+                width: 100%;
+                background-color: white;
+                border-radius: .5vw;
+                border: .2vw solid #e5e5e5;
+                outline: none;
+                margin: 0 1vw;
+                    
+                /* List some properties that might change */
+                transition-property: none;
+                transition-duration: none;
+            
+                &:focus {
+                    border-color: #08122A;
+                }
+            }
+
+            input[type='text'],
+            select {
+                height: 5vh;
+            }
+
+            select {
+                font-size: .875rem;
+            }
+        }
+
+        &__content {
+            width: 100vw;
+            padding: 0 10vw;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(22vw, 1fr));
+            justify-content: center;
+        }
+    }
+}
