@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/alteacare/static/css/main.f4aec371.css",
-    "main.js": "/alteacare/static/js/main.8ce66288.js",
+    "main.js": "/alteacare/static/js/main.977d2008.js",
     "static/css/688.eb77bc5f.chunk.css": "/alteacare/static/css/688.eb77bc5f.chunk.css",
-    "static/js/688.29251884.chunk.js": "/alteacare/static/js/688.29251884.chunk.js",
+    "static/js/688.ca548e70.chunk.js": "/alteacare/static/js/688.ca548e70.chunk.js",
     "static/js/787.dc014a1f.chunk.js": "/alteacare/static/js/787.dc014a1f.chunk.js",
     "static/media/puff.svg": "/alteacare/static/media/puff.be69e7a9d85109e7dfa9650e12eca763.svg",
     "index.html": "/alteacare/index.html",
     "main.f4aec371.css.map": "/alteacare/static/css/main.f4aec371.css.map",
-    "main.8ce66288.js.map": "/alteacare/static/js/main.8ce66288.js.map",
+    "main.977d2008.js.map": "/alteacare/static/js/main.977d2008.js.map",
     "688.eb77bc5f.chunk.css.map": "/alteacare/static/css/688.eb77bc5f.chunk.css.map",
-    "688.29251884.chunk.js.map": "/alteacare/static/js/688.29251884.chunk.js.map",
+    "688.ca548e70.chunk.js.map": "/alteacare/static/js/688.ca548e70.chunk.js.map",
     "787.dc014a1f.chunk.js.map": "/alteacare/static/js/787.dc014a1f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f4aec371.css",
-    "static/js/main.8ce66288.js"
+    "static/js/main.977d2008.js"
   ]
 }
