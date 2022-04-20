@@ -15,7 +15,7 @@ const Home = lazy(() => componentLoader(() => import("../pages/Home")));
 
 export const App = (props) => {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
         <div id='main'>
           <Suspense fallback>
           <Loader loader={props?.main?.loader} />
